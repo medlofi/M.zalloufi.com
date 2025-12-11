@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Reveal animations on scroll
+    // Reveal animations on scroll  
     const observerOptions = {
         threshold: 0.1
     };
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll('.card, .project-card, .section-title, .hero-content');
     
     animatedElements.forEach(el => {
-        el.style.opacity = '0';
+        el.style.opacity = '0'; 
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
         observer.observe(el);
