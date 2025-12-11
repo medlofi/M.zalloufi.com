@@ -33,7 +33,7 @@ body {
     transform: translate(-50%, -50%);
     width: 60vw;
     height: 60vw;
-    background: radial-gradient(circle, rgba(109, 40, 217, 0.2) 0%, rgba(5, 5, 5, 0) 70%);
+    background: radial-gradient(circle, rgba(109, 41, 217, 0.2) 0%, rgba(5, 5, 5, 0) 70%);
     filter: blur(80px);
     z-index: -1;
     pointer-events: none;
